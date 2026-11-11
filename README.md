@@ -1,8 +1,12 @@
 _Kopieer en plak hier jouw README.md uit sprint 1._
 
+[]
+
 # Learning Log Mats van Waarden
 
-<details open>
+[//] <9 november>
+
+<details>
 <summary>9 nov - Kickoff</summary>
 
 ### Wat heb ik vandaag gedaan:
@@ -22,5 +26,28 @@ Een fork van de model repository gemaakt en gepubliceerd via mijn eigen Github o
 #### 3. _Beschrijf hoe je aanpassingen aan jouw pagina kunt maken en hoe je er voor zorgt dat die op het web gepubliceerd worden._
 
 > Ik kan aanpassingen maken door in mijn Visual Studio Code de codebestanden die in de door de docent gemaakte template meegeleverd zijn te bewerken. Voor nu is dat voornamelijk de index.html, waarin simpele html aanpassingen gemaakt kunnen worden door code te schrijven of te bewerken. Na het uitvoeren van wijzigingen, kan ik via source control deze wijzigingen "committen" naar mijn github repository. Vervolgens sync ik deze wijzigingen in hetzelfde scherm en zullen deze in de bestanden in de repository aangepast worden. Dit is ook wat ik ga doen om deze tekst op mijn pagina te krijgen :)
+
+</details>
+
+[//] 11 november
+
+<details open>
+<summary>11 nov - practica</summary>
+
+### Wat heb ik vandaag gedaan:
+
+### Checkout vragen:
+
+#### 1. \_\_
+
+>
+
+#### 2. \_\_
+
+>
+
+#### 3. \_\_
+
+>
 
 </details>
