@@ -63,7 +63,7 @@ Vervolgens zijn we verder gegaan met fonts, en ook meerdere soorten kleur en eff
 
 ###### CSS
 
-'''
+```css
 /**\*\***\*\***\*\***/
 /_ @FONT-FACE _/
 /**\*\***\*\***\*\***/
@@ -155,6 +155,6 @@ padding: 1.5rem;
 padding-right: 6rem;
 }
 }
-'''
+```
 
 </details>
