@@ -25,7 +25,7 @@ Een fork van de model repository gemaakt en gepubliceerd via mijn eigen Github o
 
 </details>
 
-<!-- 11 Nov Kickoff -->
+<!-- 11 Nov practica -->
 
 <details>
 <summary>11 nov - practica</summary>
@@ -39,10 +39,14 @@ Een herhaling gehad van MMD (Multi Modal Design), microinteracties / animaties e
 ##### In het tweede practicum;
 
 Schetstechnieken, we hebben onder andere naar schetsen van vorig jaar gekeken om vast te stellen wat een schets "goed" maakt. Ook hebben we zelf geoefend met schetsen maken gebruikmakende van deze technieken. Om er een paar te noemen: Visuele hierarchie (door middel van fineline + dikkere stift), shading (met bijvoorbeeld een grijze stift), annotaties (met een andere kleur) en hoe je interactie / animatie zichtbaar maakt in een schets (met stippellijnen en een andere kleur bijvoorbeeld). Hieronder zijn de oefeningen te zien die we uitgevoerd hebben:
+<img width="200" alt="image" src="https://github.com/user-attachments/assets/9bf2bda4-c61c-4800-85d2-382bad4b85be" />
+<img width="200" alt="image" src="https://github.com/user-attachments/assets/57793959-0758-4424-89e1-1e030ae7d8fe" />
+<img width="200" alt="image" src="https://github.com/user-attachments/assets/dac1c870-48c8-427d-b16b-5d5f2e42a533" />
+
 
 </details>
 
-<!-- 13 Nov Kickoff -->
+<!-- 13 Nov practica -->
 
 <details>
 <summary>13 nov - practica</summary>
@@ -55,8 +59,8 @@ In dit practicum zijn we begonnen met het maken van een "lelijke html" pagina. D
 
 ###### Plaatje
 
-<img width="645" height="757" alt="image" src="https://github.com/user-attachments/assets/617150bf-dc1e-4380-9cda-f6c1885d6408" />
-<img width="620" height="573" alt="image" src="https://github.com/user-attachments/assets/fd7845f1-dc93-4ac9-aee5-1118eee8c483" />
+<img width="200" alt="image" src="https://github.com/user-attachments/assets/617150bf-dc1e-4380-9cda-f6c1885d6408" />
+<img width="200" alt="image" src="https://github.com/user-attachments/assets/fd7845f1-dc93-4ac9-aee5-1118eee8c483" />
 
 #### In het tweede practicum (CSS - Fonts met kleur en effecten);
 
@@ -163,6 +167,8 @@ padding-right: 6rem;
 ```
 
 </details>
+
+<!-- 16 Nov Kickoff Sprint 1 -->
 
 <details open>
 <summary>16 nov - Kickoff Sprint 1</summary>
