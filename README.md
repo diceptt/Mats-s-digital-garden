@@ -44,7 +44,7 @@ Schetstechnieken, we hebben onder andere naar schetsen van vorig jaar gekeken om
 
 <!-- 13 Nov Kickoff -->
 
-<details open>
+<details>
 <summary>13 nov - practica</summary>
 
 ### Wat heb ik vandaag gedaan:
@@ -54,6 +54,7 @@ Schetstechnieken, we hebben onder andere naar schetsen van vorig jaar gekeken om
 In dit practicum zijn we begonnen met het maken van een "lelijke html" pagina. Deze hebben we vervolgens gebruikt om weer wat css kennis naar boven te halen. Zo zijn we aan de slag gegaan met fonts, plaatjes juist weergeven (met behulp van max-width), buttons en hun interactie, consistente witruimtest en een form / formulier. Het meeste hiervan (behalve de form), was bekende informatie (alhoewel dit wel al een tijd geleden was), maar ik heb ook wat nieuws geleerd. Door het gebruiken van variabelen kun je makkelijk door op 1 plek in de code een regel aan te passen op verschillende plekken de waarde veranderen. Dit scheelt een hoop gedoe, en maakt het een stuk makkelijker om snel grote wijzigingen door te voeren.
 
 ###### Plaatje
+
 <img width="645" height="757" alt="image" src="https://github.com/user-attachments/assets/617150bf-dc1e-4380-9cda-f6c1885d6408" />
 <img width="620" height="573" alt="image" src="https://github.com/user-attachments/assets/fd7845f1-dc93-4ac9-aee5-1118eee8c483" />
 
@@ -62,9 +63,11 @@ In dit practicum zijn we begonnen met het maken van een "lelijke html" pagina. D
 Vervolgens zijn we verder gegaan met fonts, en ook meerdere soorten kleur en effecten. Er waren verschillende (na te maken) ontwerpen waar uit gekozen kon worden. Ik heb, naast de basisopdrachten, gekozen voor een opdracht uit de categorie "goed te doen" (neon), een uit "wellicht lastiger" (PUFF) en een uit "best tricky" (Messi). De eerste twee gingen mij met een beetje pielen redelijk af, maar met de laatste had ik echt moeite. Dit is mij uiteindelijk ook niet helemaal gelukt, maar ik zat wel in de juiste richting. Na een uitleg van Sanne had ik een stuk beter inzicht hoe deze laatste werkte, dus dat was erg fijn. Als laatste hebben we nog wat geleerd over animaties/transitions (transition: .5s; bijvoorbeeld), dit werkt perfect om bijvoorbeeld een knop bij :hover mooi naar een andere kleur te laten faden. Dit is ook erg handing voor in mijn uiteindelijke app. Mijn uitwerking en code is hieronder te zien:
 
 ###### Plaatje
+
 <img width="1067" height="452" alt="image" src="https://github.com/user-attachments/assets/dd46815e-5a8f-428d-99fe-bb0dad8671d9" />
 
 ###### CSS
+
 ```css
 /**\*\***\*\***\*\***/
 /_ @FONT-FACE _/
@@ -158,5 +161,28 @@ padding-right: 6rem;
 }
 }
 ```
+
+</details>
+
+<details open>
+<summary>16 nov - Kickoff Sprint 1</summary>
+
+### Wat heb ik vandaag gedaan:
+
+We zijn over de sprintplanning voor de eerste sprint heengegaan. Hierbij hebben we een lijst gemaakt van het huiswerk en de tussentijdse opdrachten die we afgerond moeten hebben voor de retrospect volgende week vrijdag. Vervolgens hebben we teksten/artikels gelezen over digital gardens, wat ons een goed beeld heeft gegeven over wat een digital garden inhoudt, en dit heeft mij ook enorm geholpen met mijn beeld van de opdracht over de komende weken. Hierna hebben we naar wat webrings gekeken, en deze vergeleken aan de hand van verschillende criteria, om erachter te komen welke het meest "webby" was. Hierna zijn we begonnen met wat onderzoek over ons onderwerp voor de opdracht, en een presentatie om hier woensdag mee verder te gaan. Hier zal ik morgen mee verder gaan.
+
+### Checkout vragen:
+
+#### 1. _Leg uit wat een digital garden is en waarom dat anders is dan een reguliere website._
+
+> Een digital garden is eigenlijk een soort persoonlijk digitale leeromgeving. Het hoeft niet "af" / "compleet" te zijn, wat bij een website wel zo is. Het is een soort moestuin, waarin je dingen die je interesseert plaatst en die af en toe wat bijwerkt. Het is dus ook niet zo dat je dit elke dag moet checken, omdat je dan iets zou missen. Het is echt een "eigen" plekje op het web, waar de maker met van alles aan de slag kan gaan.
+
+#### 2. _Leg uit wat een website 'webby' maakt en welke websites jou het meeste inspireren._
+
+> Wat een website webby maakt zijn verschillende factoren. Een voorbeeld hiervan is of het responsive is (past het in een klein scherm, past de tekst zich aan etc.), het toegankelijk is (goed kleurcontrast, visuele hierarchie, fingerfriendly, alttekst bij plaatjes etc.). Ook is het toch wel belangrijk dat de website expressief is, er moeten ook een beetje interactie, wat animaties en gradients bijvoorbeeld in gebruikt worden. Dit geeft het leven, en een "eigen" identiteit. Een van de websites die mij het meeste inspireert is de apple website. Dit komt omdat het gewoon "werkt". Het is duidelijk dat aan alles is gedacht, en dat het, terwijl het zo "simpel" lijkt, precies werkt zoals het hoort. Het is niet voor niks dat deze website altijd als voorbeeld gebruikt wordt.
+
+#### 3. _Vertel waar jij mee aan de slag wilt gaan bij het maken van jouw eigen digital garden (let op: dit zijn jouw eerste ideeën, dit kan en mag veranderen in de loop van het programma)._
+
+> Wat eerste ideeen die ik heb zijn muziek en vibecoding. Dit zijn dingen die mij interesseren of waar ik zelf mee aan de slag ben. Vibecoding denk ik bijvoorbeeld dat een belangrijk onderdeel wordt van het veld waarin we (gaan) werken, en al is het misschien niet bruikbaar tijdens de opdracht, het kan wel als onderwerp gebruikt worden!
 
 </details>
