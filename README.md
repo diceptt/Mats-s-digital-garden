@@ -43,7 +43,6 @@ Schetstechnieken, we hebben onder andere naar schetsen van vorig jaar gekeken om
 <img width="200" alt="image" src="https://github.com/user-attachments/assets/57793959-0758-4424-89e1-1e030ae7d8fe" />
 <img width="200" alt="image" src="https://github.com/user-attachments/assets/dac1c870-48c8-427d-b16b-5d5f2e42a533" />
 
-
 </details>
 
 <!-- 13 Nov practica -->
@@ -170,7 +169,7 @@ padding-right: 6rem;
 
 <!-- 16 Nov Kickoff Sprint 1 -->
 
-<details open>
+<details>
 <summary>16 nov - Kickoff Sprint 1</summary>
 
 ### Wat heb ik vandaag gedaan:
@@ -192,3 +191,89 @@ We zijn over de sprintplanning voor de eerste sprint heengegaan. Hierbij hebben 
 > Wat eerste ideeen die ik heb zijn muziek en vibecoding. Dit zijn dingen die mij interesseren of waar ik zelf mee aan de slag ben. Vibecoding denk ik bijvoorbeeld dat een belangrijk onderdeel wordt van het veld waarin we (gaan) werken, en al is het misschien niet bruikbaar tijdens de opdracht, het kan wel als onderwerp gebruikt worden!
 
 </details>
+
+<!-- 17 Nov Sprint 1-->
+
+<details>
+<summary>17 nov - sprint 1</summary>
+
+</details>
+
+<!-- 18 Nov Sprint 1 lesdag 2-->
+
+<details>
+<summary>18 nov - Sprint 1 lesdag 2</summary>
+
+### Wat heb ik vandaag gedaan:
+
+We zijn begonnen met visual research. Hierbij moesten we als eerste een sfeerwoord vastellen. Ik denk dat dit bij mij warm/cozy/relaxed is. Vervolgens hebben we hier directe, en abstracte afbeeldingen bij gezocht en deze vervolgens gebruikt als basis voor een crazy 8 waar wat eerste ontwerpen uit zijn voortgekomen.
+
+### Vragenlijst na presentatie:
+
+_Wat is voor jou de essentie van wat je hebt gepresenteerd qua onderwerp en geschreven/beeldende content?_
+
+> Dat muziek een belangrijke rol kan spelen in het leven van de gebruiker, en hun gemoedstoestand kan verbeteren en connecties in het brein kunnne versterken
+
+_Heeft 'de ander' een aanvulling op je onderwerp?​_
+
+> Hoe gaat er precies uitzien? Niet teveel op een soort spotify / muziekapp laten zien. Iets unieks om mensen over muziek te vertellen.
+
+_Wat is het karakter/ de uitstraling/ het gevoel dat bij het onderwerp past? (bijv. stoer, hip, vrolijk, dynamisch, eenvoudig, enz.)​_
+
+> Warm, fijn, cozy, chill
+
+_Welke inspiratie kun je uit je 25 afbeeldingen halen. Stijl, een gevoel, vorm, enz.​_
+
+> Qua stijl/gevoel: vintage, warm, huiskamer sfeer. vorm is digital, maar ook analoog (platen, cds etc.)
+
+_Wat zou je willen vertellen over het onderwerp aan een ander? en hoe zou je dat voor je kunnen zien? middels welke beeld, tekst, animatie, inhoudelijke content? (bijv. Ik wil voornamelijk afbeeldingen tonen, als een soort Pinterest, of ik wil muziek fragmenten laten horen, of ik gebruik korte teksten met eigen foto's)._ ​
+
+> Ik wil vooral een visueel verhaal vertellen, aan de hand van muziekfragmenten, achtergrondinformatie en aanraders. Het maakt niet uit waar de gebruiker begint, het is een vrije invulling.
+
+_Vul deze zin aan:_
+
+> Ik wil mijn Digital Garden laten gaan over muziek en de impact ervan op gemoedstoestand. en wil dat laten zien door een visueel verhaal, met veel visuals/muziekfragmenten en interactie aan content te tonen. Ik begin met een stukje eigen content over dat muziek overal is, en wat voor invloed het heeft op je brein bijvoorbeeld. ​Als het begin is gemaakt kan ik mijn Garden verder uitbreiden door genres, muziekfragmenten, aanraders en achtergrondinformatie toe te voegen.
+
+### Visual research:
+
+###### _Directe visuele beelden_
+
+<img src="images/stap1visueelonderzoek.png" alt="foto als basis voor kleurpalet" width="300">
+
+###### _Abstracte visuele vertaling_
+
+<img src="images/stap2visueelonderzoek.png" alt="foto als basis voor kleurpalet" width="300">
+
+###### _Uitgangspunten_
+
+<img src="images/stap3visueelonderzoek.png" alt="foto als basis voor kleurpalet" width="300">
+
+###### _Crazy 8 + inzichten_
+
+<img src="images/crazy8visueelonderzoek.png" alt="foto als basis voor kleurpalet" width="300">
+
+beste ideeen: iets met een platenspeler, misschien combineren met albums (als je erop klikt dat je meer te zien krijgt). Combinatie van platenspeler, album, afspeelidee. De uitgangspunten zijn duidelijk. Sommige zijn een beetje te simpel / saai in hun eentje maar kunnen in combinatie echt goed werken. Het idee is uitdagend omdat er een hoop interactie in zit en dit zijn voor mij nieuwe technieken, dus moet ik er ook nog wat voor leren.
+
+###### _Color palette light and dark mode_
+
+<img src="images/basiskleurpalet.png" alt="foto als basis voor kleurpalet" height="300">
+<img src="images/eerstekleurpalet.png" alt="eerste kleurpalet" width="300">
+<img src="images/kleurpaletten.jpg" alt="eerste kleurpalet" width="300">
+
+### Checkout vragen:
+
+#### _Leg uit waar het Visual Research in 3 stappen naartoe werkt_
+
+> Het visual research werkt naar een "identiteit" toe, net als bij een merk moet je door de vorm, typografie en kleur meteen kunnen zien dat dit van "jou" is. Je creeert eigenlijk een soort gevoel.
+
+#### _Vertel in 2 zinnen waar jouw Garden over gaat, en met welke content je dat gaat doen (beeld, tekst, sound, animatie enz)._
+
+> Mijn garden gaat over muziek en de invloed daarvan op je gemoedstoestand, dit wil ik laten zien door een visueel verhaal, met veel visuals/muziekfragmenten en interactie. Ik begin met een stukje eigen content over dat muziek overal is, en een basis over de invloed op je brein. ​Als het begin is gemaakt kan ik mijn Garden verder uitbreiden door genres, muziekfragmenten, aanraders en achtergrondinformatie toe te voegen.
+
+#### _Vertel kort welk idee van de Crazy 8 je het liefst zou willen uitvoeren/ verder zou willen onderzoeken._
+
+> Ik denk in ieder geval dat het een combinatie wordt van verschillende ideeen, maar als basis zou ik graag iets doen met het idee van de platenspeler (zie kopje crazy 8). Hier zit veel potentie voor interactie in en ook kunnen hier verschillende animaties mee gemaakt worden.
+
+</details>
+
+<!-- 19 Nov Sprint 1 -->
