@@ -197,6 +197,14 @@ We zijn over de sprintplanning voor de eerste sprint heengegaan. Hierbij hebben 
 <details>
 <summary>17 nov - sprint 1</summary>
 
+### Wat heb ik vandaag gedaan:
+
+Vandaag heb ik zelfstandig het practicum over light/dark mode gevolgd. Verder heb ik gewerkt aan mijn presentatie over het onderwerp van de digital garden voor woensdag in de les, die is hieronder te zien (de code in ieder geval).
+
+### Practicum
+
+### Presentatie
+
 </details>
 
 <!-- 18 Nov Sprint 1 lesdag 2-->
@@ -254,11 +262,20 @@ _Vul deze zin aan:_
 
 beste ideeen: iets met een platenspeler, misschien combineren met albums (als je erop klikt dat je meer te zien krijgt). Combinatie van platenspeler, album, afspeelidee. De uitgangspunten zijn duidelijk. Sommige zijn een beetje te simpel / saai in hun eentje maar kunnen in combinatie echt goed werken. Het idee is uitdagend omdat er een hoop interactie in zit en dit zijn voor mij nieuwe technieken, dus moet ik er ook nog wat voor leren.
 
-###### _Color palette light and dark mode_
+###### _Color palette light and dark mode + typografie_
 
 <img src="images/basiskleurpalet.png" alt="foto als basis voor kleurpalet" height="300">
 <img src="images/eerstekleurpalet.png" alt="eerste kleurpalet" width="300">
 <img src="images/kleurpaletten.jpg" alt="eerste kleurpalet" width="300">
+
+Typografie
+
+Ik heb gekozen voor Fraunces en Outfit (zie hieronder), Fraunces omdat dit zachte vormen en rondingen heeft, net als we zagen bij de verschillende afbeeldingen in het visuele onderzoek. Daarnaast Outfit, ook omdat dit ronde vormen heeft, omdat het vriendelijk oogt en omdat dit heel goed leesbaar is. Ze creeren samen een rustige, creatieve en toegankelijke sfeer.
+
+<img src="images/lettertypefraunces.png" alt="lettertype Fraunces" width="300">
+<img src="images/lettertypeoutfit.png" alt="lettertype Outfit" width="300">
+
+### Practicum
 
 ### Checkout vragen:
 
@@ -277,3 +294,80 @@ beste ideeen: iets met een platenspeler, misschien combineren met albums (als je
 </details>
 
 <!-- 19 Nov Sprint 1 -->
+
+<details open>
+<summary>19 nov - Sprint 1</summary>
+
+### Wat heb ik vandaag gedaan:
+
+Ik heb vandaag zelfstandig het practicum over mooie kleuren, patronen en gradients gevolgd. Daarnaast ben ik aan de slag gegaan met het verder uitwerken van de crazy 8 en heb ik hier een simpele html opzet van gemaakt in mijn index.html bestand.
+
+### Practicum:
+
+### Schetsen o.b.v crazy 8:
+
+<img src="images/schetsen1.png" alt="Schetsen obv crazy8" width="300">
+<img src="images/schetsen2.png" alt="Schetsen obv crazy8" width="300">
+<img src="images/schetsen3.png" alt="Schetsen obv crazy8" width="300">
+
+### Index.html bestand:
+
+Ik ben begonnen met de html opzet voor de laatste schets (de planken met platen erop + een platenkast). De cactus / het plantje gaat dienen als een light/dark mode, en de kast met platen als navigatie. De platen op de planken gaan waarschijnlijk als popups / popovers werken, althans, dat is nu het plan.
+
+```html
+<main>
+  <!--Plank 1-->
+  <section>
+    <ul>
+      <li><a href="index.html">Plaat 1 gradient background</a></li>
+      <li>
+        <a href="https://github.com/account/repo"
+          >Plaat 2 gradient background</a
+        >
+      </li>
+      <li>
+        <a href="https://github.com/account/repo"
+          >Plaat 3 gradient background</a
+        >
+      </li>
+    </ul>
+  </section>
+
+  <!--Plank 2-->
+  <section>
+    <ul>
+      <li><a href="index.html">Plaat 4</a></li>
+      <li><a href="https://github.com/account/repo">Plaat 5</a></li>
+      <li><a href="https://github.com/account/repo">Plaat 6</a></li>
+    </ul>
+  </section>
+
+  <!--Kast-->
+  <section>
+    <!--In kast/nav-->
+    <nav>
+      <ul>
+        <li>link</li>
+        <li>link</li>
+        <li>link</li>
+        <li>link</li>
+        <li>link</li>
+      </ul>
+    </nav>
+  </section>
+
+  <!--Cactus-->
+  <button type="button">cactus dark/light mode</button>
+
+  <!--Platenspeler-->
+  <section>
+    <button type="button">platenspeler start</button>
+  </section>
+</main>
+```
+
+Dit ziet er op dit moment als volgt uit:
+
+<img src="images/eerstehtmlopzet.png" alt="resultaat eerste html opzet" width="300">
+
+</details>
