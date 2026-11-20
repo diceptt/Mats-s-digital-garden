@@ -193,6 +193,14 @@ We zijn over de sprintplanning voor de eerste sprint heengegaan. Hierbij hebben 
 </details>
 
 <!-- 17 Nov Sprint 1-->
+<!-- 17 Nov Sprint 1-->
+<!-- 17 Nov Sprint 1-->
+<!-- 17 Nov Sprint 1-->
+<!-- 17 Nov Sprint 1-->
+<!-- 17 Nov Sprint 1-->
+<!-- 17 Nov Sprint 1-->
+<!-- 17 Nov Sprint 1-->
+<!-- 17 Nov Sprint 1-->
 
 <details>
 <summary>17 nov - sprint 1</summary>
