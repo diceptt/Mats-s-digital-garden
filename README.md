@@ -329,7 +329,7 @@ Ik heb gekozen voor Fraunces en Outfit (zie hieronder), Fraunces omdat dit zacht
 <!-- 19 Nov Sprint 1 -->
 <!-- 19 Nov Sprint 1 -->
 
-<details open>
+<details>
 <summary>19 nov - Sprint 1</summary>
 
 ### Wat heb ik vandaag gedaan:
@@ -422,15 +422,17 @@ Dit ziet er op dit moment als volgt uit:
 <!--20 nov sprint 1 lesdag 3-->
 <!--20 nov sprint 1 lesdag 3-->
 
+<details open>
+<summary>20 nov - Sprint 1 Lesdag 3</summary>
+
 ### Wat heb ik vandaag gedaan:
 
 Vandaag heb ik mijn gekozen schets (verder) uitgewerkt in een html opzet. Ik had dit al als huiswerk gedaan maar heb hier wat verfijning aan toegevoegd en met behulp van feedback de code vernieuwd. Na deze lesdag heb ik een goede basis om mee verder te gaan voor volgende week. In het weekend ga ik alvast wat css toepassen, en werken aan de illustraties voor de achtergrond.
 
+<!-- !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! -->
 <img src="images/" alt="schets met html annotaties" width="300">
 
-Na feedback (zie checkout vraag) van diederik heb ik het ontwerp wat aangepast, zodat er wat minder gebeurt en de aandacht op de juiste plek blijft.
-
-<img src="" alt="schets met html annotaties nieuwe versie" width="300">
+Na feedback (zie checkout vraag) van diederik heb ik het ontwerp wat aangepast, zodat er wat minder gebeurt en de aandacht op de juiste plek blijft. Zo is de kast nu een boekenkast, zodat er maar op 1 plek (de planken aan de muur) iets met muziek gebeurt (i.c.m. de platenspeler) bij horizontaal scherm is het idee dat alles van de mobiele weergave iets groter wordt, en er meer (niet interactieve) achtergrondelementen in beeld komen die bij het woonkamer idee horen.
 
 ### Index.html bestand update:
 
@@ -494,14 +496,71 @@ Eerste schets met html annotaties:
 Na feedback van Sanne:
 
 ```html
+<body>
+  <header>
+    <h1>De digital garden van Mats</h1>
+  </header>
 
+  <main>
+    <!--Plank 1 met platen-->
+    <section>
+      <h2 class="visually-hidden">Een muurplank met platen erop</h2>
+      <ul>
+        <li>
+          <a href="">Plaat 1 gradient background</a>
+        </li>
+        <li>
+          <a href="">Plaat 2 gradient background</a>
+        </li>
+        <li>
+          <a href="">Plaat 3 gradient background</a>
+        </li>
+      </ul>
+    </section>
+
+    <!--Plank 2 met platen-->
+    <section>
+      <h2 class="visually-hidden">Een muurplank met platen erop</h2>
+      <ul>
+        <li>
+          <a href="">Plaat 4</a>
+        </li>
+        <li>
+          <a href="">Plaat 5</a>
+        </li>
+        <li>
+          <a href="">Plaat 6</a>
+        </li>
+      </ul>
+    </section>
+
+    <!--Kast-->
+    <section>
+      <h2 class="visually-hidden">Een kast met boeken erin, navigatie</h2>
+      <!--In kast/nav-->
+      <nav>
+        <ul>
+          <li><a>menulink</a></li>
+          <li><a>menulink</a></li>
+          <li><a>menulink</a></li>
+          <li><a>menulink</a></li>
+          <li><a>menulink</a></li>
+        </ul>
+      </nav>
+    </section>
+
+    <!--Cactus-->
+    <button type="button"><img src="" />lamp dark/light mode</button>
+
+    <!-- Platenspeler (waarschijnlijk later bij interactie aanpassen naar ander onderdeel dan <a>) -->
+    <a href=""><img src="" />platenspeler</a>
+  </main>
+
+  <footer></footer>
+</body>
 ```
 
-Tweede schets met html annotaties, gebruikmakend van feedback sanne eerste ontwerp:
-
-```html
-
-```
+Ook ga ik later, na het maken van het ontwerp, svgs toevoegen in de html. Dit is nu nog niet terug te zien.
 
 ### Practicum:
 
@@ -514,3 +573,28 @@ Dit practicum ging over grid. Ik vind grid op zich best logisch, maar er zijn he
 > Visueel: De plankjes trekken nu het meeste aandacht, er gebeurt nu te veel. Zorg dat het logisch blijft. Op 3 plaatsen muziek krijgen, is dat logisch (platen plankjes, platen kast, cds kast)? Diederik vindt het veel. (zelf: Misschien 1 kast over het algemeen? met planken? dan meer een "logisch" geheel) Denk ook na over wat er gebeurt als het een horizontaal scherm wordt? Kleuren; donkere huiskamers kunnen dark mode zijn, speelt meer in op het gevoel. Light mode misschien een veel heldere moderne kamer (research kant) eventueel ook andere lettertypes voor beide, om dit onderscheid nog groter te maken.
 
 > Techniek: Titels hiden (voor screenreader) met a11y methode, buttons for light dark, als svg code in html zodat dit te animeren valt.
+
+</details>
+
+<!--22 nov sprint 1 weekend-->
+<!--22 nov sprint 1 weekend-->
+<!--22 nov sprint 1 weekend-->
+<!--22 nov sprint 1 weekend-->
+<!--22 nov sprint 1 weekend-->
+<!--22 nov sprint 1 weekend-->
+<!--22 nov sprint 1 weekend-->
+<!--22 nov sprint 1 weekend-->
+<!--22 nov sprint 1 weekend-->
+<!--22 nov sprint 1 weekend-->
+<!--22 nov sprint 1 weekend-->
+<!--22 nov sprint 1 weekend-->
+
+### Wat heb ik vandaag gedaan:
+
+Vandaag heb ik mijn gekozen schets (verder) uitgewerkt in een html opzet. Ik had dit al als huiswerk gedaan maar heb hier wat verfijning aan toegevoegd en met behulp van feedback de code vernieuwd. Na deze lesdag heb ik een goede basis om mee verder te gaan voor volgende week. In het weekend ga ik alvast wat css toepassen, en werken aan de illustraties voor de achtergrond.
+
+<img src="images/" alt="schets met html annotaties" width="300"> !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+Na feedback (zie checkout vraag) van diederik heb ik het ontwerp wat aangepast, zodat er wat minder gebeurt en de aandacht op de juiste plek blijft. Zo is de kast nu een boekenkast, zodat er maar op 1 plek (de planken aan de muur) iets met muziek gebeurt (i.c.m. de platenspeler) bij horizontaal scherm is het idee dat alles van de mobiele weergave iets groter wordt, en er meer (niet interactieve) achtergrondelementen in beeld komen die bij het woonkamer idee horen.
+
+### Index.html bestand update:

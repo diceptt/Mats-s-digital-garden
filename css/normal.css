@@ -17,6 +17,17 @@ html {
   color-scheme: light dark;
 }
 
+/* a11yproject, van sanne geleerd */
+.visually-hidden {
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  height: 1px;
+  overflow: hidden;
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+}
+
 /**************************
 * MARK: Algemene Styling
 **************************/
@@ -25,6 +36,8 @@ html {
 *::after,
 *::before {
   box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
 img {
