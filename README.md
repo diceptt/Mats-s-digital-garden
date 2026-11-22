@@ -170,7 +170,7 @@ padding-right: 6rem;
 <!-- 16 Nov Kickoff Sprint 1 -->
 
 <details>
-<summary>16 nov - Kickoff Sprint 1</summary>
+<summary><h2>16 nov - Kickoff Sprint 1</h2></summary>
 
 ### Wat heb ik vandaag gedaan:
 
@@ -211,10 +211,23 @@ Vandaag heb ik zelfstandig het practicum over light/dark mode gevolgd. Verder he
 
 ### Practicum
 
+In het practicum heb ik verschillende dingen geleerd. Een van de eerste, die ook in veel andere gevallen erg handig is zijn custom properties (bijvoorbeeld --hoofdkleur: rood;). Hiermee kun je waardes instellen die je overal door je code heen kunt gebruiken. Verder moet je eerste de regel "color-scheme: light-dark;" in de html plaatsen om de browser te vertellen dat beide aanwezig zijn. Vervolgens kun je in "light-dark()" 2 kleuren opgeven, waar de browser automatisch tussen wisselt. Als je de gebruiker dit handmatig wil kunnen laten veranderen moet je een knop maken met de :has() selector (bijvoorbeeld: html:has([value="licht"]:checked)). Ook heb ik geleerd over het picture element, waarmee je op basis van de schermgrootte en dark/light mode kan instellen welk plaatje wordt laten zien, zoday dit overal binnen past. Ik vind dit nog best ingewikkeld, dus moet hier nog wat verder mee spelen. Kortom, een hoop dingen die ik terug kan laten komen in mijn project.
+
 ### Presentatie
 
 </details>
 
+<!-- 18 Nov Sprint 1 lesdag 2-->
+<!-- 18 Nov Sprint 1 lesdag 2-->
+<!-- 18 Nov Sprint 1 lesdag 2-->
+<!-- 18 Nov Sprint 1 lesdag 2-->
+<!-- 18 Nov Sprint 1 lesdag 2-->
+<!-- 18 Nov Sprint 1 lesdag 2-->
+<!-- 18 Nov Sprint 1 lesdag 2-->
+<!-- 18 Nov Sprint 1 lesdag 2-->
+<!-- 18 Nov Sprint 1 lesdag 2-->
+<!-- 18 Nov Sprint 1 lesdag 2-->
+<!-- 18 Nov Sprint 1 lesdag 2-->
 <!-- 18 Nov Sprint 1 lesdag 2-->
 
 <details>
@@ -302,6 +315,19 @@ Ik heb gekozen voor Fraunces en Outfit (zie hieronder), Fraunces omdat dit zacht
 </details>
 
 <!-- 19 Nov Sprint 1 -->
+<!-- 19 Nov Sprint 1 -->
+<!-- 19 Nov Sprint 1 -->
+<!-- 19 Nov Sprint 1 -->
+<!-- 19 Nov Sprint 1 -->
+<!-- 19 Nov Sprint 1 -->
+<!-- 19 Nov Sprint 1 -->
+<!-- 19 Nov Sprint 1 -->
+<!-- 19 Nov Sprint 1 -->
+<!-- 19 Nov Sprint 1 -->
+<!-- 19 Nov Sprint 1 -->
+<!-- 19 Nov Sprint 1 -->
+<!-- 19 Nov Sprint 1 -->
+<!-- 19 Nov Sprint 1 -->
 
 <details open>
 <summary>19 nov - Sprint 1</summary>
@@ -311,6 +337,8 @@ Ik heb gekozen voor Fraunces en Outfit (zie hieronder), Fraunces omdat dit zacht
 Ik heb vandaag zelfstandig het practicum over mooie kleuren, patronen en gradients gevolgd. Daarnaast ben ik aan de slag gegaan met het verder uitwerken van de crazy 8 en heb ik hier een simpele html opzet van gemaakt in mijn index.html bestand.
 
 ### Practicum:
+
+In dit practicum ging het vooral over kleur / gradients. Allereerst heb ik geleerd over een nieuwe kleurmethode. Waar we eerst altijd rgb, hex etc gebruikten is er nu ook oklch() waarmee je super levendige kleuren kan creeeren (nog feller geloof ik). Ook kun je met color-mix() verschillende kleuren mengen, wat bijvoorbeeld bij een hover goed van pas komt. Vervolgens ging het over gradients, waar verschillende varianten van zijn. De varianten vershcillende eigenlijk vooral van beginpunt. Waar een normale gradient bijvoorbeeld van links naar rechts of boven naar onder verloopt, begint een radialgradient eigenlijk vanuit 1 punt. Door color stops te gebruiken (waardoor het eigenlijk geen gradient meer is maar meer een soort kleurvak met een harde grens) kun je verschillende patronen maken. Dit was ook 1 van de dingen waar ik tegenaan liep met het eerste css practicum, waar ik had geprobeerd om de messi achtergrond te maken. Ook was er een stukje over @property. Ik vind dit nog best lastig, maar dit is eigenlijk een manier om een gradient (bijvoorbeeld de angle / kleur) vloeiend te animeren.
 
 ### Schetsen o.b.v crazy 8:
 
@@ -379,3 +407,110 @@ Dit ziet er op dit moment als volgt uit:
 <img src="images/eerstehtmlopzet.png" alt="resultaat eerste html opzet" width="300">
 
 </details>
+
+<!--20 nov sprint 1 lesdag 3-->
+<!--20 nov sprint 1 lesdag 3-->
+<!--20 nov sprint 1 lesdag 3-->
+<!--20 nov sprint 1 lesdag 3-->
+<!--20 nov sprint 1 lesdag 3-->
+<!--20 nov sprint 1 lesdag 3-->
+<!--20 nov sprint 1 lesdag 3-->
+<!--20 nov sprint 1 lesdag 3-->
+<!--20 nov sprint 1 lesdag 3-->
+<!--20 nov sprint 1 lesdag 3-->
+<!--20 nov sprint 1 lesdag 3-->
+<!--20 nov sprint 1 lesdag 3-->
+<!--20 nov sprint 1 lesdag 3-->
+
+### Wat heb ik vandaag gedaan:
+
+Vandaag heb ik mijn gekozen schets (verder) uitgewerkt in een html opzet. Ik had dit al als huiswerk gedaan maar heb hier wat verfijning aan toegevoegd en met behulp van feedback de code vernieuwd. Na deze lesdag heb ik een goede basis om mee verder te gaan voor volgende week. In het weekend ga ik alvast wat css toepassen, en werken aan de illustraties voor de achtergrond.
+
+<img src="images/" alt="schets met html annotaties" width="300">
+
+Na feedback (zie checkout vraag) van diederik heb ik het ontwerp wat aangepast, zodat er wat minder gebeurt en de aandacht op de juiste plek blijft.
+
+<img src="" alt="schets met html annotaties nieuwe versie" width="300">
+
+### Index.html bestand update:
+
+Eerste schets met html annotaties:
+
+```html
+<main>
+  <!--Plank 1 met platen-->
+  <section>
+    <!--wel of niet een section?-->
+    <ul>
+      <li>
+        <a href="">Plaat 1 gradient background</a>
+      </li>
+      <li>
+        <a href="">Plaat 2 gradient background</a>
+      </li>
+      <li>
+        <a href="">Plaat 3 gradient background</a>
+      </li>
+    </ul>
+  </section>
+
+  <!--Plank 2 met platen-->
+  <section>
+    <ul>
+      <li>
+        <a href="">Plaat 4</a>
+      </li>
+      <li>
+        <a href="">Plaat 5</a>
+      </li>
+      <li>
+        <a href="">Plaat 6</a>
+      </li>
+    </ul>
+  </section>
+
+  <!--Kast-->
+  <section>
+    <!--In kast/nav-->
+    <nav>
+      <ul>
+        <li><a>menulink</a></li>
+        <li><a>menulink</a></li>
+        <li><a>menulink</a></li>
+        <li><a>menulink</a></li>
+        <li><a>menulink</a></li>
+      </ul>
+    </nav>
+  </section>
+
+  <!--Cactus-->
+  <a href=""><img src="" />cactus dark/light mode</a>
+
+  <!--Platenspeler-->
+  <a href=""><img src="" />platenspeler</a>
+</main>
+```
+
+Na feedback van Sanne:
+
+```html
+
+```
+
+Tweede schets met html annotaties, gebruikmakend van feedback sanne eerste ontwerp:
+
+```html
+
+```
+
+### Practicum:
+
+Dit practicum ging over grid. Ik vind grid op zich best logisch, maar er zijn heel veel mogelijkheden en dat maakt het vrij lastig. Een belangrijk ding is de unit fr, hiermee kun je de breedte / lengte van de grid eerlijk verdelen. Bij twee kolommen zal een verdeling van 1fr 1fr er bijvoorbeeld zorgen dat allebei de vakken evenveel ruimte opnemen, wat de totale breedte ook mag zijn. Verder kun je met mediaqueries zorgen dat een grid die op telefoon bijvoorbeeld maar 1 kolom heeft op desktop meerdere kolommen heeft. Dat ziet er ongeveer uit als @media (width > 40em) {hier de code}. Dit vind ik ook nog vrij lastig, omdat ik responsiveness een van de moeilijkste onderdelen vind van het maken van een website. Ook is het met de volgende regel: "grid-template-columns: repeat(auto-fit, minmax(16em, 1fr));", mogelijk om de browser automatisch meer kolommen te laten maken als het past. Dit is een superhandig trucje!
+
+### Checkout vraag:
+
+#### _Welke feedback heb je gehad?_
+
+> Visueel: De plankjes trekken nu het meeste aandacht, er gebeurt nu te veel. Zorg dat het logisch blijft. Op 3 plaatsen muziek krijgen, is dat logisch (platen plankjes, platen kast, cds kast)? Diederik vindt het veel. (zelf: Misschien 1 kast over het algemeen? met planken? dan meer een "logisch" geheel) Denk ook na over wat er gebeurt als het een horizontaal scherm wordt? Kleuren; donkere huiskamers kunnen dark mode zijn, speelt meer in op het gevoel. Light mode misschien een veel heldere moderne kamer (research kant) eventueel ook andere lettertypes voor beide, om dit onderscheid nog groter te maken.
+
+> Techniek: Titels hiden (voor screenreader) met a11y methode, buttons for light dark, als svg code in html zodat dit te animeren valt.
