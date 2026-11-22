@@ -3,8 +3,15 @@
 **************************/
 
 @font-face {
-  font-family: "Comic Relief";
-  src: url(../fonts/ComicRelief-Regular.woff2);
+  font-family: "Fraunces";
+  src: url(../fonts/fraunces-latin-700-normal.ttf);
+  font-weight: 700;
+  font-style: bold;
+}
+
+@font-face {
+  font-family: "Outfit";
+  src: url(../fonts/outfit-latin-400-normal.ttf);
   font-weight: 400;
   font-style: normal;
 }
@@ -15,6 +22,10 @@
 
 html {
   color-scheme: light dark;
+  --kastkleur: light-dark(#704830, #4f3323);
+  --lichtkleur: light-dark(#f7dec6, #e67f20);
+  --wandkleur: light-dark(#faf0e6, #f0c9a3);
+  --accentkleur: light-dark(#5e9e56, #545e4d);
 }
 
 /* a11yproject, van sanne geleerd */
@@ -45,14 +56,44 @@ img {
 }
 
 body {
-  font-family: "Comic Relief", system-ui;
+  background-color: var(--wandkleur);
+  color: black;
+  font-family:
+    Outfit,
+    system-ui,
+    -apple-system,
+    BlinkMacSystemFont,
+    "Segoe UI",
+    Roboto,
+    Oxygen,
+    Ubuntu,
+    Cantarell,
+    "Open Sans",
+    "Helvetica Neue",
+    sans-serif;
+  min-height: 100vh;
 }
 
 /**************************
 * MARK: Header
 **************************/
 
-header {
+header h1 {
+  font-family:
+    Fraunces,
+    system-ui,
+    -apple-system,
+    BlinkMacSystemFont,
+    "Segoe UI",
+    Roboto,
+    Oxygen,
+    Ubuntu,
+    Cantarell,
+    "Open Sans",
+    "Helvetica Neue",
+    sans-serif;
+  text-align: center;
+  margin-bottom: 2rem;
 }
 
 /**************************
@@ -67,6 +108,12 @@ footer {
 **************************/
 
 main {
+  background-color: red;
+  max-width: 60vw;
+  margin: auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  row-gap: 2.5rem;
 }
 
 /**************************

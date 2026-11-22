@@ -168,9 +168,17 @@ padding-right: 6rem;
 </details>
 
 <!-- 16 Nov Kickoff Sprint 1 -->
+<!-- 16 Nov Kickoff Sprint 1 -->
+<!-- 16 Nov Kickoff Sprint 1 -->
+<!-- 16 Nov Kickoff Sprint 1 -->
+<!-- 16 Nov Kickoff Sprint 1 -->
+<!-- 16 Nov Kickoff Sprint 1 -->
+<!-- 16 Nov Kickoff Sprint 1 -->
+<!-- 16 Nov Kickoff Sprint 1 -->
+<!-- 16 Nov Kickoff Sprint 1 -->
 
 <details>
-<summary><h2>16 nov - Kickoff Sprint 1</h2></summary>
+<summary>16 nov - Kickoff Sprint 1</summary>
 
 ### Wat heb ik vandaag gedaan:
 
@@ -422,15 +430,14 @@ Dit ziet er op dit moment als volgt uit:
 <!--20 nov sprint 1 lesdag 3-->
 <!--20 nov sprint 1 lesdag 3-->
 
-<details open>
+<details>
 <summary>20 nov - Sprint 1 Lesdag 3</summary>
 
 ### Wat heb ik vandaag gedaan:
 
 Vandaag heb ik mijn gekozen schets (verder) uitgewerkt in een html opzet. Ik had dit al als huiswerk gedaan maar heb hier wat verfijning aan toegevoegd en met behulp van feedback de code vernieuwd. Na deze lesdag heb ik een goede basis om mee verder te gaan voor volgende week. In het weekend ga ik alvast wat css toepassen, en werken aan de illustraties voor de achtergrond.
 
-<!-- !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! -->
-<img src="images/" alt="schets met html annotaties" width="300">
+<img src="images/schetshtmlannotaties.png" alt="schets met html annotaties" width="300">
 
 Na feedback (zie checkout vraag) van diederik heb ik het ontwerp wat aangepast, zodat er wat minder gebeurt en de aandacht op de juiste plek blijft. Zo is de kast nu een boekenkast, zodat er maar op 1 plek (de planken aan de muur) iets met muziek gebeurt (i.c.m. de platenspeler) bij horizontaal scherm is het idee dat alles van de mobiele weergave iets groter wordt, en er meer (niet interactieve) achtergrondelementen in beeld komen die bij het woonkamer idee horen.
 
@@ -589,12 +596,212 @@ Dit practicum ging over grid. Ik vind grid op zich best logisch, maar er zijn he
 <!--22 nov sprint 1 weekend-->
 <!--22 nov sprint 1 weekend-->
 
+<details open>
+<summary> 20-22 nov Sprint 1 Weekend werkzaamheden</summary>
+
 ### Wat heb ik vandaag gedaan:
 
-Vandaag heb ik mijn gekozen schets (verder) uitgewerkt in een html opzet. Ik had dit al als huiswerk gedaan maar heb hier wat verfijning aan toegevoegd en met behulp van feedback de code vernieuwd. Na deze lesdag heb ik een goede basis om mee verder te gaan voor volgende week. In het weekend ga ik alvast wat css toepassen, en werken aan de illustraties voor de achtergrond.
+Op basis van de feedback een nieuw kleurenpallet gemaakt.
 
-<img src="images/" alt="schets met html annotaties" width="300"> !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+Light mode
 
-Na feedback (zie checkout vraag) van diederik heb ik het ontwerp wat aangepast, zodat er wat minder gebeurt en de aandacht op de juiste plek blijft. Zo is de kast nu een boekenkast, zodat er maar op 1 plek (de planken aan de muur) iets met muziek gebeurt (i.c.m. de platenspeler) bij horizontaal scherm is het idee dat alles van de mobiele weergave iets groter wordt, en er meer (niet interactieve) achtergrondelementen in beeld komen die bij het woonkamer idee horen.
+<img src="images/kleurpalet light mode.jpg" alt="light mode kleurenpalet" width="300">
 
-### Index.html bestand update:
+Dark mode
+
+<img src="images/kleurenpalet dark mode.png" alt="dark mode kleurenpalet" width="300">
+
+### Index.html + normal.css bestand update:
+
+```html
+<body>
+  <header>
+    <h1>De digital garden van Mats</h1>
+  </header>
+
+  <main>
+    <!--Plank 1 met platen-->
+    <section>
+      <h2 class="visually-hidden">Een muurplank met platen erop</h2>
+      <ul>
+        <li>
+          <a href="">Plaat 1 gradient background</a>
+        </li>
+        <li>
+          <a href="">Plaat 2 gradient background</a>
+        </li>
+        <li>
+          <a href="">Plaat 3 gradient background</a>
+        </li>
+      </ul>
+    </section>
+
+    <!--Plank 2 met platen-->
+    <section>
+      <h2 class="visually-hidden">Een muurplank met platen erop</h2>
+      <ul>
+        <li>
+          <a href="">Plaat 4</a>
+        </li>
+        <li>
+          <a href="">Plaat 5</a>
+        </li>
+        <li>
+          <a href="">Plaat 6</a>
+        </li>
+      </ul>
+    </section>
+
+    <!--Kast-->
+    <section>
+      <h2 class="visually-hidden">Een kast met boeken erin, navigatie</h2>
+      <!--In kast/nav-->
+      <nav>
+        <ul>
+          <li><a>menulink</a></li>
+          <li><a>menulink</a></li>
+          <li><a>menulink</a></li>
+          <li><a>menulink</a></li>
+          <li><a>menulink</a></li>
+        </ul>
+      </nav>
+    </section>
+
+    <!--Cactus-->
+    <button type="button"><img src="" />lamp dark/light mode</button>
+
+    <!-- Platenspeler (waarschijnlijk later bij interactie aanpassen naar ander onderdeel dan <a>) -->
+    <a href=""><img src="" />platenspeler</a>
+  </main>
+
+  <footer></footer>
+</body>
+```
+
+```css
+/**************************
+* MARK: Fonts
+**************************/
+
+@font-face {
+  font-family: "Fraunces";
+  src: url(../fonts/fraunces-latin-700-normal.ttf);
+  font-weight: 700;
+  font-style: bold;
+}
+
+@font-face {
+  font-family: "Outfit";
+  src: url(../fonts/outfit-latin-400-normal.ttf);
+  font-weight: 400;
+  font-style: normal;
+}
+
+/**************************
+* MARK: Custom properties
+**************************/
+
+html {
+  color-scheme: light dark;
+  --kastkleur: light-dark(#704830, #4f3323);
+  --lichtkleur: light-dark(#f7dec6, #e67f20);
+  --wandkleur: light-dark(#faf0e6, #f0c9a3);
+  --accentkleur: light-dark(#5e9e56, #545e4d);
+}
+
+/* a11yproject, van sanne geleerd */
+.visually-hidden {
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  height: 1px;
+  overflow: hidden;
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+}
+
+/**************************
+* MARK: Algemene Styling
+**************************/
+
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+img {
+  max-width: 100%;
+}
+
+body {
+  background-color: var(--wandkleur);
+  color: black;
+  font-family:
+    Outfit,
+    system-ui,
+    -apple-system,
+    BlinkMacSystemFont,
+    "Segoe UI",
+    Roboto,
+    Oxygen,
+    Ubuntu,
+    Cantarell,
+    "Open Sans",
+    "Helvetica Neue",
+    sans-serif;
+  min-height: 100vh;
+}
+
+/**************************
+* MARK: Header
+**************************/
+
+header h1 {
+  font-family:
+    Fraunces,
+    system-ui,
+    -apple-system,
+    BlinkMacSystemFont,
+    "Segoe UI",
+    Roboto,
+    Oxygen,
+    Ubuntu,
+    Cantarell,
+    "Open Sans",
+    "Helvetica Neue",
+    sans-serif;
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+/**************************
+* MARK: Footer
+**************************/
+
+footer {
+}
+
+/**************************
+* MARK: Main
+**************************/
+
+main {
+  background-color: red;
+  max-width: 80vw;
+  margin: auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  row-gap: 2.5rem;
+}
+
+/**************************
+* MARK: Section ...
+**************************/
+```
+
+Ik heb de lettertypes geupdate en toegepast, de basis van de grid opgezet en de content in het midden van de pagina geplaatst met behulp van margin auto. Ook heb ik de max-width 60vw gemaakt, zodat er altijd ruimte blijft aan de zijkanten van het scherm.
+
+</details>
