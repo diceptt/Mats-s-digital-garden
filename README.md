@@ -596,7 +596,7 @@ Dit practicum ging over grid. Ik vind grid op zich best logisch, maar er zijn he
 <!--22 nov sprint 1 weekend-->
 <!--22 nov sprint 1 weekend-->
 
-<details open>
+<details>
 <summary> 20-22 nov Sprint 1 Weekend werkzaamheden</summary>
 
 ### Wat heb ik vandaag gedaan:
@@ -802,6 +802,224 @@ main {
 **************************/
 ```
 
-Ik heb de lettertypes geupdate en toegepast, de basis van de grid opgezet en de content in het midden van de pagina geplaatst met behulp van margin auto. Ook heb ik de max-width 60vw gemaakt, zodat er altijd ruimte blijft aan de zijkanten van het scherm.
+Ik heb de lettertypes geupdate en toegepast, de basis van de grid opgezet en de content in het midden van de pagina geplaatst met behulp van margin auto. Ook heb ik de max-width 80vw gemaakt, zodat er altijd ruimte blijft aan de zijkanten van het scherm.
 
 </details>
+
+<!--23 nov sprint 1 lesdag 4-->
+<!--23 nov sprint 1 lesdag 4-->
+<!--23 nov sprint 1 lesdag 4-->
+<!--23 nov sprint 1 lesdag 4-->
+<!--23 nov sprint 1 lesdag 4-->
+<!--23 nov sprint 1 lesdag 4-->
+<!--23 nov sprint 1 lesdag 4-->
+<!--23 nov sprint 1 lesdag 4-->
+<!--23 nov sprint 1 lesdag 4-->
+<!--23 nov sprint 1 lesdag 4-->
+<!--23 nov sprint 1 lesdag 4-->
+<!--23 nov sprint 1 lesdag 4-->
+<!--23 nov sprint 1 lesdag 4-->
+
+<details open>
+<summary>23 nov Sprint 1 Lesdag 4</summary>
+
+### Wat heb ik vandaag gedaan:
+
+Allereerst voorbereiding voor de eerste bi-weekly geek. Hiervoor heb ik eerst een video gekeken (how does the internet work?): Hieruit heb ik gehaald dat het Internet en het WorldWideWeb verschillende dingen zijn. Vaak worden deze namen beide voor hetzelfde idee gebruikt, maar het internet is echt de fysieke infrastructuur waardoor het mogelijk is om data te delen via computersystemen, terwijl het world wide web vooral gaat over hoe die data gedeeld, laten zien en gevormd wordt (geloof ik?). Hoe je bijvoorbeeld een video ontvangt werkt als volgt: Je stuurt een verzoek om de video te bekijken, en via lokale, regionale en internationale (onder andere de kabels in de oceaan) netwerken komt dit verzoek bij de plek waar de video is opgeslagen. Om file te voorkomen (als de hele video via 1 weg terug zou moeten worden gestuurd) wordt de video gesplitst in vele paketten die allemaal via een andere weg terugkeren naar jouw device, waardoor de video (in delen, vandaar dat niet een hele video in 1x laad) af te spelen valt.
+
+Als volgende heb ik 2 artikelen gelezen: "The Guardian view on the cloud crash: an outage that showed who really runs the internet" en "Interview: It’s not too late to fix it: web inventor Tim Berners-Lee says he is in a ‘battle for the soul’ of the internet". Wat ik hieruit heb gehaald zijn de volgende punten. Onze digitale levens zijn enorm afhankelijk van een klein aantal grote cloud providers, en bij een storing hiervan heeft dit enorme gevolgen. Cloud computing speelt een enorme rol met data. De grote 3 providers, AWS, Microsoft Azure en Google cloud, zijn verantwoordelijk voor 60% globaal op het gebied van cloud computing. Eigenlijk zijn er dus een paar enorm belangrijke datacenters en providers, die een enorme greep hebben op het "internet" terwijl dit eigenlijk geen eigendom van iets / iemand moet zijn. Het tweede artikel: Een interview met de bedenker van het World Wide Web. Het WWW was bedoeld als een vrije, toegankelijke en voornamelijk gratis plek voor iedereen. Maar verschillende mensen en groepen hebben ervoor gezorgd dat het enorm gecommercialiseerd is. Er was het idee dat technologie "neutraal" is en de mens goed of slecht is, maar sinds de komst van social media en andere soortgelijke platformen is dit eigenlijk veranderd. Deze apps / websites zijn specifiek zo verslavend mogelijk gemaakt en maken gebruik van valse algoritmes. Hij noemt ook, zoals in het vorige artikel genoemd werd, dat het monopolie van bepaalde providers een slechte invloed heeft op het web. Hij zegt dat monopolies zorgen dat een product inherent niet meer "Pro-Human" kan zijn. Hij wil een nieuwe manier van data delen introduceren die tegen deze huidige manier ingaat. Ook wil hij duidelijke regels / richtlijnen voor ai, zodat het een "goed" iets blijft, en niet als een "losgeslagen paard" fungeert.
+
+Hierna heb ik me bezig gehouden met responsive design. Ik was helaas vandaag ziek en heb niet in een duo mijn website kunnen vergelijken, maar als ik dit zelf doe zie ik de volgende verbeterpunten:
+
+- Tekst veranderd niet van grootte, dit kan door relatieve eenheden opgelost worden
+- Wrapping van tekst is niet netjes
+- Iconen / secties worden "samengedrukt" i.p.v. verkleind.
+
+Daarnaast heb ik ook een stuk of 4 goede voorbeelden van responsive design gevonden via Awwwards:
+
+- https://santionispirits.com/ Content blijft altijd goed zichtbaar en de interactie / visuals hebben evenveel kracht.
+- https://peaches.world/ Elementen verplaatsen naar een logische plek als er geen plek meer voor is door de schermgrootte, verhouding en font size passes zich netjes aan.
+- https://jjettas.com/ Elementen, animaties, visuals, knoppen en tekst passen zich mooi aan aan de schermgrootte. Op elke grootte fijn en makkelijk om te gebruiken.
+- https://locomotive.ca/en Veel informatie en tekst, maar op elke schermgrootte duidelijk te lezen, te onderscheiden en te gebruiken.
+
+### normal.css bestand update:
+
+Ik heb de onderdelen op de juiste plek in de grid gezet, en de plankjes en de kast over de hele breedte verspreid. Ook heb ik alvast als achtergrond kleur de juiste variabele toegepast. De basis voor de indeling staat nu. Ik ga denk ik nu aan de slag met wat illustraties / iconen maken, om de onderdelen visueel in te vullen (en dan ook padding / margin etc bij te stellen).
+
+```css
+/**************************
+* MARK: Fonts
+**************************/
+
+@font-face {
+  font-family: "Fraunces";
+  src: url(../fonts/fraunces-latin-700-normal.ttf);
+  font-weight: 700;
+  font-style: bold;
+}
+
+@font-face {
+  font-family: "Outfit";
+  src: url(../fonts/outfit-latin-400-normal.ttf);
+  font-weight: 400;
+  font-style: normal;
+}
+
+/**************************
+* MARK: Custom properties
+**************************/
+
+html {
+  color-scheme: light dark;
+  --kastkleur: light-dark(#704830, #4f3323);
+  --lichtkleur: light-dark(#f7dec6, #e67f20);
+  --wandkleur: light-dark(#faf0e6, #f0c9a3);
+  --accentkleur: light-dark(#5e9e56, #545e4d);
+}
+
+/* a11yproject, van sanne geleerd */
+.visually-hidden {
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  height: 1px;
+  overflow: hidden;
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+}
+
+/**************************
+* MARK: Algemene Styling
+**************************/
+
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+img {
+  max-width: 100%;
+}
+
+body {
+  background-color: var(--wandkleur);
+  color: black;
+  font-family:
+    Outfit,
+    system-ui,
+    -apple-system,
+    BlinkMacSystemFont,
+    "Segoe UI",
+    Roboto,
+    Oxygen,
+    Ubuntu,
+    Cantarell,
+    "Open Sans",
+    "Helvetica Neue",
+    sans-serif;
+  min-height: 100vh;
+}
+
+/**************************
+* MARK: Header
+**************************/
+
+header h1 {
+  font-family:
+    Fraunces,
+    system-ui,
+    -apple-system,
+    BlinkMacSystemFont,
+    "Segoe UI",
+    Roboto,
+    Oxygen,
+    Ubuntu,
+    Cantarell,
+    "Open Sans",
+    "Helvetica Neue",
+    sans-serif;
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+/**************************
+* MARK: Footer
+**************************/
+
+footer {
+}
+
+/**************************
+* MARK: Main
+**************************/
+
+main {
+  background-color: red;
+  max-width: 60vw;
+  margin: auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  row-gap: 2.5rem;
+}
+
+/**************************
+* MARK: Section plankjes met platen
+**************************/
+
+main > section:nth-of-type(1),
+main > section:nth-of-type(2) {
+  grid-column: 1/-1;
+  border-bottom: 10px solid var(--kastkleur);
+}
+
+/**************************
+* MARK: Light / dark mode lamp
+**************************/
+
+main > button:nth-of-type(1) {
+  grid-column: 1/2;
+  grid-row: 3;
+  background-color: var(--lichtkleur);
+}
+
+/**************************
+* MARK: Platenspeler
+**************************/
+
+main > a:nth-of-type(1) {
+  grid-column: 2/3;
+  grid-row: 3;
+  background-color: var(--accentkleur);
+}
+
+/**************************
+* MARK: Boekenkast
+**************************/
+
+main > section:nth-of-type(3) {
+  grid-column: 1/-1;
+  grid-row: 4;
+  background-color: var(--kastkleur);
+}
+```
+
+### Practicum:
+
+Belangrijkste punten: Als bestandsformaat voor iconen / tekeningen is svg handig, omdat dit altijd scherp blijft.Voor fotos en pixelplaatjes is WEBP handig, omdat dit een superklein bestandsformaat heeft. Een foto moet als vuistregel 2x de resolutie hebben als waar hij komt (stel de foto moet op de website 300px breed zijn, moet hij opgeslagen worden als 600px breed). Voor bestandsnamen is het goed om kleine letter, streepjes (-), en cijfers te gebruiken. Hoort het plaatje echt bij de inhoud? gebruik dan <img>, is het plaatje puur versiering bijvoorbeeld? gebruik dan background-image. Door images een max-width:100% te geven, kunnen ze nooit uit hun vakje breken, dit was al standaard gedaan in de css die we aangereikt hebben gekregen.
+
+### Checkout vragen:
+
+#### _Leg uit wanneer een website 'lelijk' wordt en geef voorbeelden wat je kan doen om deze 'lelijke' onderdelen te fixen?_
+
+> Een website is 'Lelijk' als hij enorm statisch is, niet aanpast aan de schermgrootte en geen duidelijke hierarchie heeft. Dit valt op te lossen door media queries, een automatische grid en duidelijke regels voor hierarchie (font-size, lettertypes, plaatsing, padding, margin etc.) te gebruiken. Door deze onderdelen (en algemene styling natuurlijk) slim in te zetten kun je in ieder geval een 'lelijke' website al een stuk beter maken.
+
+#### _Vertel welke volgende stap je neemt om je website responsive te maken._
+
+> Om mijn website responsive te maken ga ik ervoor zorgen dat hij bij het veranderen van de schermgrootte minder/meer kolommen laat zien in de grid. Dit door gebruik te maken van de "magische regel" (grid-template-columns: repeat(auto-fit, minmax(15em, 1fr));). Ook had ik al eerder een max-width aan de main gegeven, dus dit moet ook al helpen met de responsiveness van mijn website.
+
+#### _Kun je het ontwerp en de bouw van je eigen Garden (zo uit je hoofd) onderbouwen in Webby vocabulair?_
+
+> Nog niet, maar van wat ik me herinner kan ik in ieder geval zeggen dat er goede stappen worden gezet naar het toegankelijk maken van de website (door responsiveness, dark/light mode etc.). Ook ben ik van plan om later hovers en andere interactie toe te voegen, wat ik denk dat het expressief maakt in combinatie met de iconen en tekeningen die ik ga maken.

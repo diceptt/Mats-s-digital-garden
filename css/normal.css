@@ -117,5 +117,41 @@ main {
 }
 
 /**************************
-* MARK: Section ...
+* MARK: Section plankjes met platen
 **************************/
+
+main > section:nth-of-type(1),
+main > section:nth-of-type(2) {
+  grid-column: 1/-1;
+  border-bottom: 10px solid var(--kastkleur);
+}
+
+/**************************
+* MARK: Light / dark mode lamp
+**************************/
+
+main > button:nth-of-type(1) {
+  grid-column: 1/2;
+  grid-row: 3;
+  background-color: var(--lichtkleur);
+}
+
+/**************************
+* MARK: Platenspeler
+**************************/
+
+main > a:nth-of-type(1) {
+  grid-column: 2/3;
+  grid-row: 3;
+  background-color: var(--accentkleur);
+}
+
+/**************************
+* MARK: Boekenkast
+**************************/
+
+main > section:nth-of-type(3) {
+  grid-column: 1/-1;
+  grid-row: 4;
+  background-color: var(--kastkleur);
+}
