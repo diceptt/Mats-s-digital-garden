@@ -820,7 +820,7 @@ Ik heb de lettertypes geupdate en toegepast, de basis van de grid opgezet en de 
 <!--23 nov sprint 1 lesdag 4-->
 <!--23 nov sprint 1 lesdag 4-->
 
-<details open>
+<details>
 <summary>23 nov Sprint 1 Lesdag 4</summary>
 
 ### Wat heb ik vandaag gedaan:
@@ -1023,3 +1023,51 @@ Belangrijkste punten: Als bestandsformaat voor iconen / tekeningen is svg handig
 #### _Kun je het ontwerp en de bouw van je eigen Garden (zo uit je hoofd) onderbouwen in Webby vocabulair?_
 
 > Nog niet, maar van wat ik me herinner kan ik in ieder geval zeggen dat er goede stappen worden gezet naar het toegankelijk maken van de website (door responsiveness, dark/light mode etc.). Ook ben ik van plan om later hovers en andere interactie toe te voegen, wat ik denk dat het expressief maakt in combinatie met de iconen en tekeningen die ik ga maken.
+
+<!--25 nov sprint 1 lesdag 5-->
+<!--25 nov sprint 1 lesdag 5-->
+<!--25 nov sprint 1 lesdag 5-->
+<!--25 nov sprint 1 lesdag 5-->
+<!--25 nov sprint 1 lesdag 5-->
+<!--25 nov sprint 1 lesdag 5-->
+<!--25 nov sprint 1 lesdag 5-->
+<!--25 nov sprint 1 lesdag 5-->
+<!--25 nov sprint 1 lesdag 5-->
+<!--25 nov sprint 1 lesdag 5-->
+
+<details open>
+<summary>25 nov Sprint 1 Lesdag 5</summary>
+
+### Wat heb ik vandaag gedaan:
+
+In de les hebben we uitleg gehad over gestaltprincipes en grid. Dit hebben we al eerder gehad, maar het was fijn om weer een opfrisser te krijgen. Vervolgens moesten we een schets maken, en die doorgeven aan een klasgenoot om op verschillende factoren te verbeteren (contrast, witruimte, hierarchie). Zie hieronder de resultaten:
+
+<img src="images/schetsmetgrid.png" alt="schets met grid eroverheen" width="300">
+
+_Zorg dat er genoeg kleurverschil zit tussen de plaat en de plank en tussen de kast en boeken._
+
+_Zorg voor genoeg witruimte tussen de planken en de kast._
+
+_Zorg ervoor dat de klikbare lementen groot genoeg zijn en een opvallende kleur hebben._
+
+### normal.css bestand update:
+
+```css
+
+```
+
+### Extra les:
+
+### Checkout vragen:
+
+#### _Noem 3 Gestalt- of Design principes op en laat de ander uitleggen wat ze betekenen en doen._
+
+> Nabijheid, Symmetrie, Restvorm. Sam: Hoe dichtbij elementen bij elkaar staan en daardoor toont dat het (wel/niet) bij elkaar hoort, Dat beide kanten gespiegeld / gelijk zijn, Dat door het toevoegen van een andere vorm daartussen door de witruime een vorm ontstaat.
+
+#### _Een grid biedt ruimte om te spelen (vrijheid), maar tegelijkertijd ook eenheid en structuur (vastigheid). Wat wordt hiermee bedoeld?_
+
+> Een grid biedt aan de ene kant ruimte om te spelen, omdat het geen "vaste gevangenis is" je kunt hierdoor vrij elementen nog vormen. Daarnaast geeft het wel eenheid en structuur door een richtlijn te geven, en een basis te stellen waar op verder gebouwd kan worden.
+
+#### _Welk principe neem je mee in een laatste iteratie van je eigen Garden?_
+
+> Het gebruiken van een grid op de juiste manier. Ik was hier al mee bezig in mijn code, maar door dit op een slimme manier vorm te geven kan ik mijn ontwerp goed weergeven en mijn garden uitbreiden. Ook wil ik hier wel balans in hebben, en niet alles op een "saaie" symmetrische manier vormgeven
