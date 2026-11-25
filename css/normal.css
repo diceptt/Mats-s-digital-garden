@@ -71,7 +71,11 @@ body {
     "Open Sans",
     "Helvetica Neue",
     sans-serif;
-  min-height: 100vh;
+  min-height: 100dvh;
+}
+
+ul {
+  list-style: none;
 }
 
 /**************************
@@ -108,12 +112,13 @@ footer {
 **************************/
 
 main {
-  background-color: red;
+  /* background-color: red; */
   max-width: 60vw;
   margin: auto;
   display: grid;
   grid-template-columns: 1fr 1fr;
-  row-gap: 2.5rem;
+  row-gap: 1rem;
+  column-gap: 2rem;
 }
 
 /**************************
@@ -122,8 +127,120 @@ main {
 
 main > section:nth-of-type(1),
 main > section:nth-of-type(2) {
-  grid-column: 1/-1;
-  border-bottom: 10px solid var(--kastkleur);
+  grid-column: 1 / -1;
+  border-bottom: 20px solid var(--kastkleur);
+  padding: 1rem;
+
+  & > ul {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(12em, 1fr));
+    gap: 1.5rem;
+    margin-bottom: -1rem;
+  }
+
+  & li {
+    aspect-ratio: 1/1;
+  }
+
+  & a {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    gap: 0.5rem;
+    text-decoration: none;
+    padding: 1rem 0rem 1rem 0rem;
+    transition: transform 0.4s ease-in;
+
+    &:hover {
+      transform: translateY(-10px) rotate(2deg);
+    }
+  }
+
+  /* ! PLACEHOLDER SVG HIER KOMEN EIGEN SVGS! */
+  & svg {
+    width: 100%;
+    max-width: 8rem;
+    overflow: visible;
+
+    & .disc {
+      fill: #1e1e1e;
+    }
+
+    & .grooves {
+      fill: none;
+      stroke: rgb(255 255 255 / 0.2);
+      stroke-width: 1;
+    }
+
+    & .label {
+      fill: var(--accentkleur);
+    }
+
+    & .hole {
+      fill: var(--wandkleur);
+    }
+  }
+}
+
+main > section:nth-of-type(1) {
+  /* Plaat 1 */
+  & li:nth-child(1) {
+    background-color: red;
+
+    & .label {
+      fill: crimson;
+    }
+  }
+
+  /* Plaat 2 */
+  & li:nth-child(2) {
+    background-color: red;
+
+    & .label {
+      fill: dodgerblue;
+    }
+  }
+  /* Plaat 3 */
+  & li:nth-child(3) {
+    background-color: red;
+
+    & .label {
+      fill: purple;
+    }
+  }
+}
+
+main > section:nth-of-type(2) {
+  margin-bottom: 3rem;
+
+  /* Plaat 4 */
+  & li:nth-child(1) {
+    background-color: red;
+
+    & .label {
+      fill: teal;
+    }
+  }
+
+  /* Plaat 5 */
+  & li:nth-child(2) {
+    background-color: red;
+
+    & .label {
+      fill: gold;
+    }
+  }
+
+  /* Plaat 6 */
+  & li:nth-child(3) {
+    background-color: red;
+
+    & .label {
+      fill: pink;
+    }
+  }
 }
 
 /**************************
@@ -133,7 +250,17 @@ main > section:nth-of-type(2) {
 main > button:nth-of-type(1) {
   grid-column: 1/2;
   grid-row: 3;
+  justify-self: start;
+  align-self: end;
+  margin-left: 2rem;
   background-color: var(--lichtkleur);
+
+  & svg {
+    width: 100%;
+    max-width: 12.5rem;
+    height: auto;
+    overflow: visible;
+  }
 }
 
 /**************************
@@ -141,9 +268,20 @@ main > button:nth-of-type(1) {
 **************************/
 
 main > a:nth-of-type(1) {
+  display: flex;
+  justify-content: center;
   grid-column: 2/3;
   grid-row: 3;
+  justify-self: end;
+  align-self: end;
+  margin-right: 6rem;
   background-color: var(--accentkleur);
+
+  & svg {
+    width: 100%;
+    max-height: 3rem;
+    overflow: visible;
+  }
 }
 
 /**************************
@@ -151,7 +289,40 @@ main > a:nth-of-type(1) {
 **************************/
 
 main > section:nth-of-type(3) {
-  grid-column: 1/-1;
+  margin-top: -1rem;
+  padding: 3rem 1rem 0 1rem;
+  grid-column: 1 / -1;
   grid-row: 4;
-  background-color: var(--kastkleur);
+  background-color: red;
+  border: 10px solid var(--kastkleur);
+  border-bottom: 10px solid blueviolet;
+
+  & nav ul {
+    display: flex;
+    align-items: flex-end;
+    gap: 0.35rem;
+  }
+
+  & nav a {
+    display: block;
+    writing-mode: vertical-rl;
+    padding: 0.8rem 0.5rem;
+    height: 10rem;
+    background-color: green;
+    color: white;
+    text-decoration: none;
+    border-radius: 3px;
+    transition: transform 0.2s ease-in-out;
+
+    &:hover {
+      transform: translateY(-12px);
+    }
+  }
+
+  & nav li:nth-of-type(1) a {
+    background-color: pink;
+    transform: rotate(15deg);
+    margin-left: 0.5rem;
+    margin-right: 1rem;
+  }
 }
