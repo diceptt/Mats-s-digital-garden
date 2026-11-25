@@ -1058,14 +1058,500 @@ Verder heb ik een grote stappen genomen in het maken van de css. Ik ben hier de 
 
 Eerst
 
+<img src="images/pagina2511start3.png" alt="Hoe de pagina eruitzag op de ochtend van 25 november" width="300">
+
 <img src="images/pagina2511start1.png" alt="Hoe de pagina eruitzag op de ochtend van 25 november" width="300">
 
 <img src="images/pagina2511start2.png" alt="Hoe de pagina eruitzag op de ochtend van 25 november" width="300">
 
-<img src="images/pagina2511start3.png" alt="Hoe de pagina eruitzag op de ochtend van 25 november" width="300">
+```html
+<!doctype html>
+<html lang="nl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="jouw naam" />
+    <meta name="color-scheme" content="dark light" />
+
+    <title>Digital garden van Mats</title>
+    <link rel="stylesheet" href="./css/normal.css" />
+
+    <!-- Voeg jouw eigen domein toe in data-page -->
+    <script
+      data-page="https://hettuintjevanmats.nl"
+      src="./scripts/main.js"
+      defer
+    ></script>
+  </head>
+
+  <body>
+    <header>
+      <h1 class="visually-hidden">De digital garden van Mats</h1>
+    </header>
+
+    <main>
+      <!--Plank 1 met platen-->
+      <section>
+        <h2 class="visually-hidden">Een muurplank met platen erop</h2>
+        <ul>
+          <li>
+            <a href="">
+              <!-- PLACEHOLDER SVG HIER KOMEN EIGEN SVGS! -->
+              <svg viewBox="0 0 100 100" aria-hidden="true">
+                <circle class="disc" cx="50" cy="50" r="48" />
+                <circle class="grooves" cx="50" cy="50" r="36" />
+                <circle class="grooves" cx="50" cy="50" r="28" />
+                <circle class="label" cx="50" cy="50" r="18" />
+                <circle class="hole" cx="50" cy="50" r="4" />
+              </svg>
+              <span>Plaat 1</span>
+            </a>
+          </li>
+          <li>
+            <a href="">
+              <!-- PLACEHOLDER SVG HIER KOMEN EIGEN SVGS! -->
+              <svg viewBox="0 0 100 100" aria-hidden="true">
+                <circle class="disc" cx="50" cy="50" r="48" />
+                <circle class="grooves" cx="50" cy="50" r="36" />
+                <circle class="grooves" cx="50" cy="50" r="28" />
+                <circle class="label" cx="50" cy="50" r="18" />
+                <circle class="hole" cx="50" cy="50" r="4" />
+              </svg>
+              <span>Plaat 2</span>
+            </a>
+          </li>
+          <li>
+            <a href="">
+              <!-- PLACEHOLDER SVG HIER KOMEN EIGEN SVGS! -->
+              <svg viewBox="0 0 100 100" aria-hidden="true">
+                <circle class="disc" cx="50" cy="50" r="48" />
+                <circle class="grooves" cx="50" cy="50" r="36" />
+                <circle class="grooves" cx="50" cy="50" r="28" />
+                <circle class="label" cx="50" cy="50" r="18" />
+                <circle class="hole" cx="50" cy="50" r="4" />
+              </svg>
+              <span>Plaat 3</span>
+            </a>
+          </li>
+        </ul>
+      </section>
+
+      <!--Plank 2 met platen-->
+      <section>
+        <h2 class="visually-hidden">Een muurplank met platen erop</h2>
+        <ul>
+          <li>
+            <a href="">
+              <!-- PLACEHOLDER SVG HIER KOMEN EIGEN SVGS! -->
+              <svg viewBox="0 0 100 100" aria-hidden="true">
+                <circle class="disc" cx="50" cy="50" r="48" />
+                <circle class="grooves" cx="50" cy="50" r="36" />
+                <circle class="grooves" cx="50" cy="50" r="28" />
+                <circle class="label" cx="50" cy="50" r="18" />
+                <circle class="hole" cx="50" cy="50" r="4" />
+              </svg>
+              <span>Plaat 4</span>
+            </a>
+          </li>
+          <li>
+            <a href="">
+              <!-- PLACEHOLDER SVG HIER KOMEN EIGEN SVGS! -->
+              <svg viewBox="0 0 100 100" aria-hidden="true">
+                <circle class="disc" cx="50" cy="50" r="48" />
+                <circle class="grooves" cx="50" cy="50" r="36" />
+                <circle class="grooves" cx="50" cy="50" r="28" />
+                <circle class="label" cx="50" cy="50" r="18" />
+                <circle class="hole" cx="50" cy="50" r="4" />
+              </svg>
+              <span>Plaat 5</span>
+            </a>
+          </li>
+          <li>
+            <a href="">
+              <!-- PLACEHOLDER SVG HIER KOMEN EIGEN SVGS! -->
+              <svg viewBox="0 0 100 100" aria-hidden="true">
+                <circle class="disc" cx="50" cy="50" r="48" />
+                <circle class="grooves" cx="50" cy="50" r="36" />
+                <circle class="grooves" cx="50" cy="50" r="28" />
+                <circle class="label" cx="50" cy="50" r="18" />
+                <circle class="hole" cx="50" cy="50" r="4" />
+              </svg>
+              <span>Plaat 6</span>
+            </a>
+          </li>
+        </ul>
+      </section>
+
+      <!--Kast-->
+      <section>
+        <h2 class="visually-hidden">Een kast met boeken erin, navigatie</h2>
+        <!--In kast/nav-->
+        <nav>
+          <ul>
+            <li><a>menulink</a></li>
+            <li><a>menulink</a></li>
+            <li><a>menulink</a></li>
+            <li><a>menulink</a></li>
+            <li><a>menulink</a></li>
+          </ul>
+        </nav>
+      </section>
+
+      <!--Lamp-->
+      <button type="button">
+        <!-- PLACEHOLDER SVG HIER KOMEN EIGEN SVGS! -->
+        <svg></svg>
+        <span class="visually-hidden">Light / Dark mode button</span>
+      </button>
+
+      <!-- Platenspeler (waarschijnlijk later bij interactie aanpassen naar ander onderdeel dan <a>) -->
+      <a href="">
+        <!-- PLACEHOLDER SVG HIER KOMEN EIGEN SVGS! -->
+        <svg></svg>
+        <span class="visually-hidden">Platenspeler</span>
+      </a>
+    </main>
+
+    <footer></footer>
+  </body>
+</html>
+```
 
 ```css
+/**************************
+* MARK: Fonts
+**************************/
 
+@font-face {
+  font-family: "Fraunces";
+  src: url(../fonts/fraunces-latin-700-normal.ttf);
+  font-weight: 700;
+  font-style: bold;
+}
+
+@font-face {
+  font-family: "Outfit";
+  src: url(../fonts/outfit-latin-400-normal.ttf);
+  font-weight: 400;
+  font-style: normal;
+}
+
+/**************************
+* MARK: Custom properties
+**************************/
+
+html {
+  color-scheme: light dark;
+  --kastkleur: light-dark(#704830, #4f3323);
+  --lichtkleur: light-dark(#f7dec6, #e67f20);
+  --wandkleur: light-dark(#faf0e6, #f0c9a3);
+  --accentkleur: light-dark(#5e9e56, #545e4d);
+}
+
+/* a11yproject, van sanne geleerd */
+.visually-hidden {
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  height: 1px;
+  overflow: hidden;
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+}
+
+/**************************
+* MARK: Algemene Styling
+**************************/
+
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+img {
+  max-width: 100%;
+}
+
+body {
+  background-color: var(--wandkleur);
+  color: black;
+  font-family:
+    Outfit,
+    system-ui,
+    -apple-system,
+    BlinkMacSystemFont,
+    "Segoe UI",
+    Roboto,
+    Oxygen,
+    Ubuntu,
+    Cantarell,
+    "Open Sans",
+    "Helvetica Neue",
+    sans-serif;
+  min-height: 100dvh;
+}
+
+ul {
+  list-style: none;
+}
+
+/**************************
+* MARK: Header
+**************************/
+
+header > h1 {
+  font-family:
+    Fraunces,
+    system-ui,
+    -apple-system,
+    BlinkMacSystemFont,
+    "Segoe UI",
+    Roboto,
+    Oxygen,
+    Ubuntu,
+    Cantarell,
+    "Open Sans",
+    "Helvetica Neue",
+    sans-serif;
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+/**************************
+* MARK: Footer
+**************************/
+
+footer {
+}
+
+/**************************
+* MARK: Main
+**************************/
+
+main {
+  /* background-color: red; */
+  max-width: 60vw;
+  margin: auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  row-gap: 1rem;
+  column-gap: 2rem;
+
+  @media (max-width: 55rem) {
+    max-width: 90vw;
+  }
+}
+
+/**************************
+* MARK: Section plankjes met platen
+**************************/
+
+main > section:nth-of-type(1),
+main > section:nth-of-type(2) {
+  grid-column: 1 / -1;
+  border-bottom: 20px solid var(--kastkleur);
+  padding: 1rem 5rem;
+
+  & > ul {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(12em, 1fr));
+    gap: 1.5rem;
+    margin-bottom: -1rem;
+  }
+
+  & li {
+    aspect-ratio: 1/1;
+  }
+
+  & a {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    gap: 0.5rem;
+    text-decoration: none;
+    padding: 1rem 0rem 1rem 0rem;
+    transition: transform 0.4s ease-in;
+
+    &:hover {
+      transform: translateY(-10px) rotate(2deg);
+    }
+  }
+
+  /* ! PLACEHOLDER SVG HIER KOMEN EIGEN SVGS! */
+  & svg {
+    width: 100%;
+    max-width: 8rem;
+    overflow: visible;
+
+    & .disc {
+      fill: #1e1e1e;
+    }
+
+    & .grooves {
+      fill: none;
+      stroke: rgb(255 255 255 / 0.2);
+      stroke-width: 1;
+    }
+
+    & .label {
+      fill: var(--accentkleur);
+    }
+
+    & .hole {
+      fill: var(--wandkleur);
+    }
+  }
+}
+
+main > section:nth-of-type(1) {
+  margin-left: 5rem;
+  /* Plaat 1 */
+  & li:nth-child(1) {
+    background-color: red;
+
+    & .label {
+      fill: crimson;
+    }
+  }
+
+  /* Plaat 2 */
+  & li:nth-child(2) {
+    background-color: red;
+
+    & .label {
+      fill: dodgerblue;
+    }
+  }
+  /* Plaat 3 */
+  & li:nth-child(3) {
+    background-color: red;
+
+    & .label {
+      fill: purple;
+    }
+  }
+}
+
+main > section:nth-of-type(2) {
+  margin-bottom: 3rem;
+  margin-right: 5rem;
+
+  /* Plaat 4 */
+  & li:nth-child(1) {
+    background-color: red;
+
+    & .label {
+      fill: teal;
+    }
+  }
+
+  /* Plaat 5 */
+  & li:nth-child(2) {
+    background-color: red;
+
+    & .label {
+      fill: gold;
+    }
+  }
+
+  /* Plaat 6 */
+  & li:nth-child(3) {
+    background-color: red;
+
+    & .label {
+      fill: pink;
+    }
+  }
+}
+
+/**************************
+* MARK: Light / dark mode lamp
+**************************/
+
+main > button:nth-of-type(1) {
+  grid-column: 1/2;
+  grid-row: 3;
+  justify-self: start;
+  align-self: end;
+  margin-left: 2rem;
+  background-color: var(--lichtkleur);
+
+  & svg {
+    width: 100%;
+    max-width: 12.5rem;
+    height: auto;
+    overflow: visible;
+  }
+}
+
+/**************************
+* MARK: Platenspeler
+**************************/
+
+main > a:nth-of-type(1) {
+  display: flex;
+  justify-content: center;
+  grid-column: 2/3;
+  grid-row: 3;
+  justify-self: end;
+  align-self: end;
+  margin-right: 6rem;
+  background-color: var(--accentkleur);
+
+  & svg {
+    width: 100%;
+    max-height: 3rem;
+    overflow: visible;
+  }
+}
+
+/**************************
+* MARK: Boekenkast
+**************************/
+
+main > section:nth-of-type(3) {
+  margin-top: -1rem;
+  padding: 3rem 1rem 0 1rem;
+  grid-column: 1 / -1;
+  grid-row: 4;
+  background-color: red;
+  border: 10px solid var(--kastkleur);
+  border-bottom: 10px solid blueviolet;
+
+  & nav ul {
+    display: flex;
+    align-items: flex-end;
+    gap: 0.35rem;
+  }
+
+  & nav a {
+    display: block;
+    writing-mode: vertical-rl;
+    padding: 0.8rem 0.5rem;
+    height: 10rem;
+    background-color: green;
+    color: white;
+    text-decoration: none;
+    border-radius: 3px;
+    transition: transform 0.2s ease-in-out;
+
+    &:hover {
+      transform: translateY(-12px);
+    }
+  }
+
+  & nav li:nth-of-type(1) a {
+    background-color: pink;
+    transform: rotate(15deg);
+    margin-left: 0.5rem;
+    margin-right: 1rem;
+  }
+}
 ```
 
 ### Extra les:
@@ -1085,3 +1571,7 @@ Verdergewerkt aan CSS.
 #### _Welk principe neem je mee in een laatste iteratie van je eigen Garden?_
 
 > Het gebruiken van een grid op de juiste manier. Ik was hier al mee bezig in mijn code, maar door dit op een slimme manier vorm te geven kan ik mijn ontwerp goed weergeven en mijn garden uitbreiden. Ook wil ik hier wel balans in hebben, en niet alles op een "saaie" symmetrische manier vormgeven
+
+### Thuis
+
+Heb gewerkt aan illustraties en deze als vervanging van de placeholders geplaatst.
