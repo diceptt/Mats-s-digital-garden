@@ -1052,6 +1052,8 @@ _Zorg voor genoeg witruimte tussen de planken en de kast._
 
 _Zorg ervoor dat de klikbare lementen groot genoeg zijn en een opvallende kleur hebben._
 
+Verder heb ik een grote stappen genomen in het maken van de css. Ik ben hier de rest van de dag mee bezig geweest.
+
 ### normal.css bestand update:
 
 Eerst
@@ -1067,6 +1069,8 @@ Eerst
 ```
 
 ### Extra les:
+
+Verdergewerkt aan CSS.
 
 ### Checkout vragen:
 
