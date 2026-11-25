@@ -1054,6 +1054,14 @@ _Zorg ervoor dat de klikbare lementen groot genoeg zijn en een opvallende kleur 
 
 ### normal.css bestand update:
 
+Eerst
+
+<img src="images/pagina2511start1.png" alt="Hoe de pagina eruitzag op de ochtend van 25 november" width="300">
+
+<img src="images/pagina2511start2.png" alt="Hoe de pagina eruitzag op de ochtend van 25 november" width="300">
+
+<img src="images/pagina2511start3.png" alt="Hoe de pagina eruitzag op de ochtend van 25 november" width="300">
+
 ```css
 
 ```
