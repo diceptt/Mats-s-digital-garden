@@ -1024,6 +1024,8 @@ Belangrijkste punten: Als bestandsformaat voor iconen / tekeningen is svg handig
 
 > Nog niet, maar van wat ik me herinner kan ik in ieder geval zeggen dat er goede stappen worden gezet naar het toegankelijk maken van de website (door responsiveness, dark/light mode etc.). Ook ben ik van plan om later hovers en andere interactie toe te voegen, wat ik denk dat het expressief maakt in combinatie met de iconen en tekeningen die ik ga maken.
 
+</details>
+
 <!--25 nov sprint 1 lesdag 5-->
 <!--25 nov sprint 1 lesdag 5-->
 <!--25 nov sprint 1 lesdag 5-->
